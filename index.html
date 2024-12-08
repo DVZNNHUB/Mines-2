@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Mines</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Tela de Carregamento -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loader"></div>
+        <h2>Carregando Mega Mines...</h2>
+    </div>
+
+    <!-- Tela do Jogo -->
+    <div class="game" style="display: none;">
+        <h1>Mega Mines</h1>
+        
+        <!-- Botões de Controle -->
+        <div class="controls">
+            <button id="increaseBet" class="button">Aumentar Aposta</button>
+            <button id="decreaseBet" class="button">Diminuir Aposta</button>
+            <button id="cashOutBtn" class="button">Sacar Dinheiro</button>
+        </div>
+
+        <div id="gameBoard"></div>
+        <button id="startGame" class="button">Iniciar Jogo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
