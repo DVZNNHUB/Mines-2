@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('startGame');
     const gameDiv = document.querySelector('.game');
     
-    // Exemplo de como criar o tabuleiro de jogo (5x5 por exemplo)
+    // Função para criar o tabuleiro de 5x5
     function createBoard() {
         let grid = '';
         for (let i = 0; i < 5; i++) {
